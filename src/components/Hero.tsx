@@ -47,10 +47,12 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <button className="flex items-center justify-center gap-2 bg-primary hover:bg-secondary text-white px-8 py-4 rounded-xl font-medium transition-all shadow-[0_0_20px_rgba(122,112,231,0.4)] hover:shadow-[0_0_30px_rgba(122,112,231,0.6)]">
-              <Download size={20} />
-              Download APK
-            </button>
+            <a href="/Pinvoke.apk" download>
+              <button className="flex items-center justify-center gap-2 bg-primary hover:bg-secondary text-white px-8 py-4 rounded-xl font-medium transition-all shadow-[0_0_20px_rgba(122,112,231,0.4)] hover:shadow-[0_0_30px_rgba(122,112,231,0.6)]">
+                <Download size={20} />
+                Download APK
+              </button>
+            </a>
             <Link href="#features">
               <button className="flex items-center justify-center gap-2 glass hover:bg-white/5 text-on-surface px-8 py-4 rounded-xl font-medium transition-all w-full sm:w-auto">
                 Learn More
