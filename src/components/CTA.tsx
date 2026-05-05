@@ -25,7 +25,7 @@ export default function CTA() {
                 Join thousands of users who never miss a payment. Download Pinvoke today and experience the peace of mind.
               </p>
               
-              <a href="/Pinvoke.apk" download>
+              <a href="/apk/pinvoke-latest.apk" download="Pinvoke.apk">
                 <button className="flex items-center justify-center gap-2 bg-primary hover:bg-secondary text-white px-10 py-5 rounded-xl font-bold text-lg transition-all mx-auto shadow-[0_0_30px_rgba(122,112,231,0.5)] hover:shadow-[0_0_40px_rgba(157,149,233,0.7)] hover:scale-105">
                   <Download size={24} />
                   Download APK Now
