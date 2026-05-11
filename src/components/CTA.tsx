@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
+import AdComponent from '@/components/AdComponent';
 
 export default function CTA() {
   return (
@@ -34,6 +35,9 @@ export default function CTA() {
             </div>
           </div>
         </motion.div>
+
+        {/* Ad unit — renders only when ENABLE_ADS=true */}
+        <AdComponent />
       </div>
     </section>
   );
